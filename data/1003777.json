@@ -1,0 +1,1428 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Vicky's Restaurant",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "1003777",
+                            "name": "Vicky's Restaurant",
+                            "city": "Pune",
+                            "slugs": {
+                                "restaurant": "vicky's-restaurant-pimple-saudagar-pimple-saudagar",
+                                "city": "pune"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/6/33932b59-4d8f-48c8-974b-9bcd0423f186_1003777.jpg",
+                            "locality": "Pimple Saudagar",
+                            "areaName": "Pimple Saudagar",
+                            "costForTwo": "25000",
+                            "costForTwoMessage": "₹250 for two",
+                            "cuisines": [
+                                "Chinese",
+                                "Singaporean"
+                            ],
+                            "feeDetails": {
+                                "restaurantId": "1003777",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "222995",
+                            "avgRatingString": "--",
+                            "totalRatingsString": "Too Few Ratings",
+                            "sla": {
+                                "restaurantId": "1003777",
+                                "deliveryTime": 24,
+                                "minDeliveryTime": 20,
+                                "maxDeliveryTime": 25,
+                                "lastMileTravel": 1.6,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 41,
+                                "slaString": "20-25 MINS",
+                                "lastMileTravelString": "1.6 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2026-04-07 22:15:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "10% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "10% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "10% off up to ₹40 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "vicky's-restaurant-pimple-saudagar-pimple-saudagar",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "S.NO-129/1, SHRIKRISHNA COLONY,OPP LIFE 360, RAHATNI,PIMPLESAUDAGAR-17 ,,PUNE PCMC ward No-001,Pune,Maharashtra-411017\t"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Chinese,Singaporean"
+                                }
+                            ],
+                            "aggregatedDiscountInfoV2": {
+                                "header": "10% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "10% off | Use TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "10% off up to ₹40 | Use code TRYNEW",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "Freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/1003777"
+                            },
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "18.6072125,73.79485939999999",
+                            "externalRatings": {
+                                "aggregatedRating": {
+                                    "rating": "--"
+                                }
+                            },
+                            "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+                        "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹40",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "4045a481-ffb5-4b50-80cb-b0a384ea7887"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE TRYNEW",
+                                            "description": "ABOVE ₹129",
+                                            "offerType": "offers",
+                                            "restId": "1003777",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE TRYNEW"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹100",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/28/56e53f59-f1e2-4925-b128-1f61c6ea6f2e_HSBC.png",
+                                            "offerIds": [
+                                                "ca2f8605-4c57-488f-a515-f11c8d46b0bd"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE HSBCMATCH",
+                                            "description": "ABOVE ₹699",
+                                            "offerType": "offers",
+                                            "restId": "1003777",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/28/56e53f59-f1e2-4925-b128-1f61c6ea6f2e_HSBC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE HSBCMATCH"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹75",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/c8c7546a-a2e6-4866-88ef-a5f7201822e8_Visa.png",
+                                            "offerIds": [
+                                                "49b4cc8e-3a16-442c-9dae-9df87369b3ac"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE VISAPLATINUMDC",
+                                            "description": "ABOVE ₹300",
+                                            "offerType": "offers",
+                                            "restId": "1003777",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/c8c7546a-a2e6-4866-88ef-a5f7201822e8_Visa.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE VISAPLATINUMDC"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹150 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/31/ffbcba46-2ab0-4ac3-888f-ed3abd69dd2e_Axis.png",
+                                            "offerIds": [
+                                                "d5748402-854d-4cd2-a232-6ae9be2edd08"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXISREWARDS",
+                                            "description": "ABOVE ₹500",
+                                            "offerType": "offers",
+                                            "restId": "1003777",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/31/ffbcba46-2ab0-4ac3-888f-ed3abd69dd2e_Axis.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXISREWARDS"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹125 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/ef2ea047-8494-4682-855d-339c6db7517a_IDFC.png",
+                                            "offerIds": [
+                                                "5c631f66-4a17-41d0-87fd-c1b2843743ad"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE IDFCDC125",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "1003777",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/ef2ea047-8494-4682-855d-339c6db7517a_IDFC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE IDFCDC125"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248321",
+                                                            "name": "Chicken lollipop dry",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/1/22/881749e3-42ba-4375-b551-e3f57b88739e_8c2a1354-d613-404b-b111-691980708b95.JPG",
+                                                            "inStock": 1,
+                                                            "price": 23900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087218",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248328",
+                                                            "name": "Chicken hot and sour soup",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/1/16/e9f9f0f2-9c51-4f8a-9f04-b9f2780b9a1b_5f6ff2ec-a59d-4d61-a4ba-42f5b8a0a7b5.JPG",
+                                                            "inStock": 1,
+                                                            "price": 13900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087216",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED",
+                                            "subtitleSuffix": {},
+                                            "categoryId": "-1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Non Veg",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248343",
+                                                            "name": "Chicken hakka noodles",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/ba3db154-1f90-468d-b567-1e91f6b806af_e188233c-4670-4b85-858d-f9bb4468f9da.jpg",
+                                                            "inStock": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087214",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248342",
+                                                            "name": "Chicken schezwan noodles",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/b62a6c5a-282b-4e5a-abdd-1f8efe152e3e_974b178c-e8f2-4cab-891c-98382685f570.jpg",
+                                                            "inStock": 1,
+                                                            "price": 23500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087224",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248320",
+                                                            "name": "Chicken lollipop masala",
+                                                            "category": "Non Veg",
+                                                            "inStock": 1,
+                                                            "price": 29500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087219",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248321",
+                                                            "name": "Chicken lollipop dry",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/1/22/881749e3-42ba-4375-b551-e3f57b88739e_8c2a1354-d613-404b-b111-691980708b95.JPG",
+                                                            "inStock": 1,
+                                                            "price": 23900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087218",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248322",
+                                                            "name": "Chicken chilli",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/f999e4d4-97e5-49fb-a289-a080a1ac0be2_31b726b4-2f7c-484b-abf1-f894fbb6dc97.jpg",
+                                                            "inStock": 1,
+                                                            "price": 19900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087213",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248323",
+                                                            "name": "Chicken manchurian",
+                                                            "category": "Non Veg",
+                                                            "inStock": 1,
+                                                            "price": 18900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19566739",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248324",
+                                                            "name": "Chicken schezwan fried rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/5f89550d-46cc-4a26-85a4-a7fe2dffe316_6e3c30f4-9807-41a4-93a9-1f4bba2ea428.jpg",
+                                                            "inStock": 1,
+                                                            "price": 24900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "merch_bau/High%20Protein%201_1.png"
+                                                                }
+                                                            ],
+                                                            "parentId": "94087223",
+                                                            "menuFilterIds": [
+                                                                "EATRIGHT",
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248325",
+                                                            "name": "Chicken schezwan rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/d87b64d4-b098-4de9-b44e-4cebfa307f23_4b0edbd7-e280-465e-a902-ab9a67b836f8.jpg",
+                                                            "inStock": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087225",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248328",
+                                                            "name": "Chicken hot and sour soup",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/1/16/e9f9f0f2-9c51-4f8a-9f04-b9f2780b9a1b_5f6ff2ec-a59d-4d61-a4ba-42f5b8a0a7b5.JPG",
+                                                            "inStock": 1,
+                                                            "price": 13900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087216",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248329",
+                                                            "name": "Chicken manchow soup",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/13/c0cd0e59-f9e8-4d4d-b8a2-98a2fa414acd_65c30699-2aa3-4cd9-abf5-4a71d834bf37.jpg",
+                                                            "inStock": 1,
+                                                            "price": 18900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19566738",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248330",
+                                                            "name": "Chicken noodles soup",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/173ebef1-52ef-4164-85ae-1860e56c3632_887ae58e-f9c2-4f3a-8d7d-6710f2af5b67.jpg",
+                                                            "inStock": 1,
+                                                            "price": 14900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087221",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248319",
+                                                            "name": "Egg hakka noodles",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/14/aa055d3b-713c-49d5-947e-4217a80d738e_ae60102f-ba52-4486-b7b3-7cc92e451b34.jpg",
+                                                            "inStock": 1,
+                                                            "price": 19900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087229",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248336",
+                                                            "name": "Chicken triple rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/938b640f-7ebc-4b92-9492-ca1a3d74b249_b7dacf72-499a-433f-83e3-635b80702d81.jpg",
+                                                            "inStock": 1,
+                                                            "price": 27500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087228",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248337",
+                                                            "name": "Chicken manchurian rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/d40e5554-e5dc-4112-8a67-bb45da8cbe82_df261baf-20a2-4f81-8e41-4647c0cbc1f1.jpg",
+                                                            "inStock": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087220",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248340",
+                                                            "name": "Chicken fried rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/50210f9f-1e16-454a-a95a-2bffc4be4f9d_13f4a020-981b-48eb-b398-2ee48bd65229.jpg",
+                                                            "inStock": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "imageBadges": [
+                                                                {
+                                                                    "imageId": "merch_bau/High%20Protein%201_1.png"
+                                                                }
+                                                            ],
+                                                            "parentId": "19566712",
+                                                            "menuFilterIds": [
+                                                                "EATRIGHT",
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248341",
+                                                            "name": "Egg fried rice",
+                                                            "category": "Non Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/16/436bffb5-49a9-414a-90b4-bcf127fc40a1_69298506-22f6-40a3-8b7c-650b96261690.jpg",
+                                                            "inStock": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "NONVEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19566831",
+                                                            "menuFilterIds": [
+                                                                "NONVEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/ba3db154-1f90-468d-b567-1e91f6b806af_e188233c-4670-4b85-858d-f9bb4468f9da.jpg",
+                                            "categoryId": "56018423"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Veg",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248347",
+                                                            "name": "Veg manchow soup",
+                                                            "category": "Veg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19567132",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248348",
+                                                            "name": "Veg hot and sour soup",
+                                                            "category": "Veg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 14500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087235",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248349",
+                                                            "name": "Veg noodles soup",
+                                                            "category": "Veg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19567144",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248350",
+                                                            "name": "Veg fried rice",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/14/62a26ec1-5982-44b0-9e38-7d45fa09245b_50a92acb-ea28-453f-8560-ee28ae0705d4.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "19567109",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248351",
+                                                            "name": "Veg schezwan rice",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/79a58ae4-8843-460a-83e6-556511f6e9c0_ffa4e30f-bccc-4ae9-8af8-ad68297d6b15.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087241",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248352",
+                                                            "name": "Veg hong kong rice",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/acb22a2d-9b7d-4682-8da3-177aa49c84c6_4874e25a-15c0-4f0e-b09e-937d4e76c34e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 20900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087234",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248355",
+                                                            "name": "Veg triple rice",
+                                                            "category": "Veg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087244",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248356",
+                                                            "name": "Veg manchurian rice",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/bcf5c579-d9d6-4dc3-aecd-4517cfe0d6c1_8e28e90d-aeee-4003-8da3-22aa218412d1.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 25900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087237",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248358",
+                                                            "name": "Veg paneer fried rice",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/13/e482663e-d143-4037-9ab0-f8c28907857f_9a8c4e12-7766-4d12-b545-8ede2e74275a.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087239",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248359",
+                                                            "name": "Veg hakka noodles",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/14/069d1aca-06f6-490b-b813-28f638c06839_cbb64e1e-8df6-408b-9d25-f7ae73644d07.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087232",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248360",
+                                                            "name": "Veg schezwan noodles",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/2/13/38ce236f-ce2a-4e0f-901e-2fe5c5067270_28889cfa-c48c-4072-a08b-05001fea8b4e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087240",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248361",
+                                                            "name": "Veg hong kong noodles",
+                                                            "category": "Veg",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/25/73f871bc-ba1b-4e99-bcad-91d98904bc33_2e8014aa-5069-4f53-8c9e-e2df51ae8516.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087233",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "157248364",
+                                                            "name": "Veg manchurian noodles",
+                                                            "category": "Veg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 23500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "parentId": "94087236",
+                                                            "menuFilterIds": [
+                                                                "VEG"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/2/14/62a26ec1-5982-44b0-9e38-7d45fa09245b_50a92acb-ea28-453f-8560-ee28ae0705d4.jpg",
+                                            "categoryId": "56018424"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 21524037004297"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Vicky's Restaurant",
+                                            "area": "Pimple Saudagar",
+                                            "completeAddress": "S.NO-129/1, SHRIKRISHNA COLONY,OPP LIFE 360, RAHATNI,PIMPLESAUDAGAR-17 ,,PUNE PCMC ward No-001,Pune,Maharashtra-411017\t"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "3fd9b949-1f99-4ad0-82d4-b6c0bbf88a88",
+    "sid": "qnu9e9b7805-4171-4f75-bb7d-da280c32a",
+    "deviceId": "0f6c6758-5e1a-2316-7366-d20b12da93b5",
+    "csrfToken": "nTE2QWaK7JqW-phPyra_LaNYTfa1uj5umDhxNH3o"
+}
