@@ -11,10 +11,11 @@ router.get("/", (req, res) => {
     return res.status(400).json({ error: "restaurantId is required" });
   }
 
-  const filePath = path.join(__dirname, `../data/${restaurantId}.json`);
+  let filePath = path.join(__dirname, `../data/${restaurantId}.json`);
 
   if (!fs.existsSync(filePath)) {
-    return res.status(404).json({ error: "Restaurant not found" });
+    filePath = path.join(__dirname, `../data/56869.json`);
+    // return res.status(404).json({ error: "Restaurant not found" });
   }
 
   const data = fs.readFileSync(filePath, "utf-8");

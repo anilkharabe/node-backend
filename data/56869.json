@@ -1,0 +1,2133 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Hotel Nisarg ( Special Misal House )",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            },
+                            {
+                                "id": "Dineout",
+                                "title": "Dineout",
+                                "cta": "https://swiggy.com/menu/56869/dineout"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "56869",
+                            "name": "Hotel Nisarg ( Special Misal House )",
+                            "city": "Pune",
+                            "slugs": {
+                                "restaurant": "hotel-nisarg-special-misal-house-nigdi-nigdi",
+                                "city": "pune"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "ncss5ylexusfjvedohfv",
+                            "locality": "Ravet",
+                            "areaName": "Ravet",
+                            "costForTwo": "15000",
+                            "costForTwoMessage": "₹150 for two",
+                            "cuisines": [
+                                "Indian"
+                            ],
+                            "avgRating": 4.4,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "56869",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "100796",
+                            "avgRatingString": "4.4",
+                            "totalRatingsString": "7.4K+ ratings",
+                            "sla": {
+                                "restaurantId": "56869",
+                                "deliveryTime": 36,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 45,
+                                "lastMileTravel": 8.7,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                                "zoneId": 681,
+                                "slaString": "35-45 MINS",
+                                "lastMileTravelString": "8.7 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2026-04-09 20:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Get items under 10",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "30% Off | Use FIRSTBITE",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "30% Off | Use FIRSTBITE",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "hotel-nisarg-special-misal-house-nigdi-nigdi",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Royale Shell, Bhondave Corner, Near D. Y. Opp. Pawana Bank, Ravet, Dy Patil College Rd, Ravet, Pune, Maharashtra 411033"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Indian"
+                                }
+                            ],
+                            "totalRatings": 7400,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Get items under 10",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "30% Off | Use FIRSTBITE",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "30% Off | Use FIRSTBITE",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "priority": 7,
+                                    "discountInfo": {
+                                        "discountType": "FinalPrice",
+                                        "value": 89
+                                    },
+                                    "unlockedMessage": "Deal of the Day unlocked!",
+                                    "minItemCount": 1,
+                                    "maxItemCount": 1,
+                                    "type": "SILD",
+                                    "nudgeTagInfo": {
+                                        "title": "Deal of the Day",
+                                        "fontName": "FONT_NAME_CONDENSED_BOLD"
+                                    },
+                                    "logoCtx": {},
+                                    "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/56869"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "18.643681,73.75466600000004",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {},
+                            "requestContexts": [
+                                "99store",
+                                "enable_ecosaver"
+                            ]
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+                        "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "ITEMS AT ₹10",
+                                            "offerTag": "DEAL OF DAY",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "0401cb27-eb75-46ec-8349-690c865630b1"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "description": "ON SELECT ITEMS |",
+                                            "offerType": "offers",
+                                            "restId": "56869",
+                                            "offerLogo": "offers/deal-of-day",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "30% OFF UPTO ₹75",
+                                            "offerTag": "DEFAULT",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "f2f47e3d-ac1c-4a01-ad37-a9751015dac5"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FIRSTBITE",
+                                            "description": "ABOVE ₹179",
+                                            "offerType": "offers",
+                                            "restId": "56869",
+                                            "offerLogo": "offers/generic",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE FIRSTBITE"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹150 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/31/ffbcba46-2ab0-4ac3-888f-ed3abd69dd2e_Axis.png",
+                                            "offerIds": [
+                                                "d5748402-854d-4cd2-a232-6ae9be2edd08"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXISREWARDS",
+                                            "description": "ABOVE ₹500",
+                                            "offerType": "offers",
+                                            "restId": "56869",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/3/31/ffbcba46-2ab0-4ac3-888f-ed3abd69dd2e_Axis.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXISREWARDS"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹75",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/c8c7546a-a2e6-4866-88ef-a5f7201822e8_Visa.png",
+                                            "offerIds": [
+                                                "49b4cc8e-3a16-442c-9dae-9df87369b3ac"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE VISAPLATINUMDC",
+                                            "description": "ABOVE ₹300",
+                                            "offerType": "offers",
+                                            "restId": "56869",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/c8c7546a-a2e6-4866-88ef-a5f7201822e8_Visa.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE VISAPLATINUMDC"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹125 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/ef2ea047-8494-4682-855d-339c6db7517a_IDFC.png",
+                                            "offerIds": [
+                                                "5c631f66-4a17-41d0-87fd-c1b2843743ad"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE IDFCDC125",
+                                            "description": "ABOVE ₹499",
+                                            "offerType": "offers",
+                                            "restId": "56869",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/4/1/ef2ea047-8494-4682-855d-339c6db7517a_IDFC.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE IDFCDC125"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                                            "title": "Top Picks",
+                                            "carousel": [
+                                                {
+                                                    "type": "TopCarousel",
+                                                    "subtype": "image",
+                                                    "bannerId": "5679912",
+                                                    "creativeId": "TopPicks2024/92569851A.png",
+                                                    "title": "Nisarg Special Misal",
+                                                    "description": " ",
+                                                    "fontColor": "#FFFFFF",
+                                                    "dish": {
+                                                        "info": {
+                                                            "id": "92569851",
+                                                            "name": "Nisarg Special Misal",
+                                                            "category": "Main Course",
+                                                            "description": "2 Pav , Farsan and gravy.",
+                                                            "imageId": "d29aaa3fe963520e7f7f5733b95e9e32",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11500,
+                                                            "finalPrice": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "51705849",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "1587da6b-aa7f-4b67-92a0-77a6f0615ded"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583008"
+                                                        },
+                                                        "analytics": {},
+                                                        "restaurant": {
+                                                            "info": {
+                                                                "dishStyle": {
+                                                                    "socialMarkerStyle": [
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                                                            "title": "Protein Rich",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "brand_proteinator_primary"
+                                                                        },
+                                                                        {
+                                                                            "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                                                            "title": "Bestseller",
+                                                                            "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                                                            "textColor": "color_swiggy_one"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569851",
+                                                            "name": "Nisarg Special Misal",
+                                                            "category": "Main Course",
+                                                            "description": "2 Pav , Farsan and gravy.",
+                                                            "imageId": "d29aaa3fe963520e7f7f5733b95e9e32",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11500,
+                                                            "finalPrice": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "51705849",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "3788 ratings",
+                                                                    "ratingCountV2": "3.8K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "1587da6b-aa7f-4b67-92a0-77a6f0615ded"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583008",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "57036260",
+                                                            "name": "Batata Bhaji",
+                                                            "category": "Main Course",
+                                                            "description": "Pakoda",
+                                                            "imageId": "d4912a723d9105a346f0dbf0f4cfc343",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "1741 ratings",
+                                                                    "ratingCountV2": "1.7K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "162894",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569853",
+                                                            "name": "Vada Pav",
+                                                            "category": "Main Course",
+                                                            "imageId": "fbe5186fe8abc8c4a8d200a14d2dc345",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "finalPrice": 1000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "51705850",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "1586 ratings",
+                                                                    "ratingCountV2": "1.6K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "0401cb27-eb75-46ec-8349-690c865630b1"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "162913",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93278935",
+                                                            "name": "6 Pcs. Pav",
+                                                            "category": "Accompaniments",
+                                                            "imageId": "4457bcc690d891de10fea1617fff2d0c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "finalPrice": 1900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "52243521",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.5",
+                                                                    "ratingCount": "2544 ratings",
+                                                                    "ratingCountV2": "2.5K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "1b309c68-1268-45ed-aac8-f5bc5deadcf8"
+                                                            ],
+                                                            "parentId": "51202689",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93248943",
+                                                            "name": "Extra Pav [single]",
+                                                            "category": "Accompaniments",
+                                                            "imageId": "365ccff69db8c0a28e3509dd5277549f",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 700,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "845 ratings",
+                                                                    "ratingCountV2": "845"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "162901",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569860",
+                                                            "name": "Solkadhi",
+                                                            "category": "Drinks (beverages)",
+                                                            "imageId": "5ff5ba958bf381f90160df6f375d3152",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "finalPrice": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "397 ratings",
+                                                                    "ratingCountV2": "397"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "dbe5b1f4-fff0-46cd-a44f-516730dc1ac6"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583011",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED",
+                                            "subtitleSuffix": {},
+                                            "categoryId": "-1"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Main Course",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569851",
+                                                            "name": "Nisarg Special Misal",
+                                                            "category": "Main Course",
+                                                            "description": "2 Pav , Farsan and gravy.",
+                                                            "imageId": "d29aaa3fe963520e7f7f5733b95e9e32",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11500,
+                                                            "finalPrice": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "51705849",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "3788 ratings",
+                                                                    "ratingCountV2": "3.8K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "1587da6b-aa7f-4b67-92a0-77a6f0615ded"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583008",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "57036260",
+                                                            "name": "Batata Bhaji",
+                                                            "category": "Main Course",
+                                                            "description": "Pakoda",
+                                                            "imageId": "d4912a723d9105a346f0dbf0f4cfc343",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "1741 ratings",
+                                                                    "ratingCountV2": "1.7K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "162894",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569853",
+                                                            "name": "Vada Pav",
+                                                            "category": "Main Course",
+                                                            "imageId": "fbe5186fe8abc8c4a8d200a14d2dc345",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "finalPrice": 1000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "51705850",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "1586 ratings",
+                                                                    "ratingCountV2": "1.6K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "0401cb27-eb75-46ec-8349-690c865630b1"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "162913",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93272303",
+                                                            "name": "Double Batata Vada Sample",
+                                                            "category": "Main Course",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 11200,
+                                                            "finalPrice": 8900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "166 ratings",
+                                                                    "ratingCountV2": "166"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "1587da6b-aa7f-4b67-92a0-77a6f0615ded"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "51202691",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569852",
+                                                            "name": "Single Vada Sample",
+                                                            "category": "Main Course",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "finalPrice": 5300,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "85 ratings",
+                                                                    "ratingCountV2": "85"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "634e6997-f850-49b4-80a7-78c322800234"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583010",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569850",
+                                                            "name": "Batata Vada",
+                                                            "category": "Main Course",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "finalPrice": 1900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "303 ratings",
+                                                                    "ratingCountV2": "303"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "1b309c68-1268-45ed-aac8-f5bc5deadcf8"
+                                                            ],
+                                                            "parentId": "50583004",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "d29aaa3fe963520e7f7f5733b95e9e32",
+                                            "categoryId": "22840305"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Accompaniments",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93278935",
+                                                            "name": "6 Pcs. Pav",
+                                                            "category": "Accompaniments",
+                                                            "imageId": "4457bcc690d891de10fea1617fff2d0c",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2500,
+                                                            "finalPrice": 1900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "52243521",
+                                                                    "groupName": "Extra",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "41373347",
+                                                                            "name": "Single Pav",
+                                                                            "price": 1000,
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.5",
+                                                                    "ratingCount": "2544 ratings",
+                                                                    "ratingCountV2": "2.5K+"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "1b309c68-1268-45ed-aac8-f5bc5deadcf8"
+                                                            ],
+                                                            "parentId": "51202689",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569854",
+                                                            "name": "Farsan Plate",
+                                                            "category": "Accompaniments",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6500,
+                                                            "finalPrice": 3900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.6",
+                                                                    "ratingCount": "561 ratings",
+                                                                    "ratingCountV2": "561"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "b0aff230-5e13-46fd-adc9-ad3b11a70ce6"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "162903",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569855",
+                                                            "name": "Sample Plate",
+                                                            "category": "Accompaniments",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7000,
+                                                            "finalPrice": 4900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "132 ratings",
+                                                                    "ratingCountV2": "132"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "0b877236-fee5-4dd1-9e39-79433a23e8fc"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583009",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93248943",
+                                                            "name": "Extra Pav [single]",
+                                                            "category": "Accompaniments",
+                                                            "imageId": "365ccff69db8c0a28e3509dd5277549f",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 700,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "845 ratings",
+                                                                    "ratingCountV2": "845"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "162901",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "93272305",
+                                                            "name": "Curd",
+                                                            "category": "Accompaniments",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "97 ratings",
+                                                                    "ratingCountV2": "97"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "51202690",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "4457bcc690d891de10fea1617fff2d0c",
+                                            "categoryId": "22840306"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Drinks (beverages)",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569860",
+                                                            "name": "Solkadhi",
+                                                            "category": "Drinks (beverages)",
+                                                            "imageId": "5ff5ba958bf381f90160df6f375d3152",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4500,
+                                                            "finalPrice": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "397 ratings",
+                                                                    "ratingCountV2": "397"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "dbe5b1f4-fff0-46cd-a44f-516730dc1ac6"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583011",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569858",
+                                                            "name": "Masala Taak",
+                                                            "category": "Drinks (beverages)",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "finalPrice": 1900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.4",
+                                                                    "ratingCount": "374 ratings",
+                                                                    "ratingCountV2": "374"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "offerIds": [
+                                                                "1b309c68-1268-45ed-aac8-f5bc5deadcf8"
+                                                            ],
+                                                            "parentId": "50583006",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569856",
+                                                            "name": "Tea",
+                                                            "category": "Drinks (beverages)",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2000,
+                                                            "finalPrice": 1000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "227 ratings",
+                                                                    "ratingCountV2": "227"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#C8F9E5",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_very_good",
+                                                                    "ratingTextColor": "rating_very_good",
+                                                                    "ratingCountTextColor": "rating_very_good",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "0401cb27-eb75-46ec-8349-690c865630b1"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "50583012",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer",
+                                                                "toprated"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569857",
+                                                            "name": "Cold Beverage",
+                                                            "category": "Drinks (beverages)",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 4000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "45 ratings",
+                                                                    "ratingCountV2": "45"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "50583005",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "92569859",
+                                                            "name": "Mineral Water",
+                                                            "category": "Drinks (beverages)",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "variants": {},
+                                                            "variantsV2": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "15746227",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "500 Ml",
+                                                                                "price": 20,
+                                                                                "default": 1,
+                                                                                "id": "52524274",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "1 Litre",
+                                                                                "price": 35,
+                                                                                "id": "52524275",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "pricingModels": [
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "15746227",
+                                                                                "variationId": "52524274"
+                                                                            }
+                                                                        ],
+                                                                        "price": 2000,
+                                                                        "finalPrice": {
+                                                                            "units": "20"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "variations": [
+                                                                            {
+                                                                                "groupId": "15746227",
+                                                                                "variationId": "52524275"
+                                                                            }
+                                                                        ],
+                                                                        "price": 3500,
+                                                                        "finalPrice": {
+                                                                            "units": "35"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 2000,
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                },
+                                                                "ratingsPresentationConfig": {
+                                                                    "bgGradient": {
+                                                                        "colours": [
+                                                                            "#D9EFEC",
+                                                                            "#00FFFFFF"
+                                                                        ],
+                                                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                                                    },
+                                                                    "ratingIconColor": "rating_medium",
+                                                                    "ratingTextColor": "rating_medium",
+                                                                    "ratingCountTextColor": "rating_medium",
+                                                                    "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                                                    "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                                                }
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "50583007",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ]
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "5ff5ba958bf381f90160df6f375d3152",
+                                            "categoryId": "22840307"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 11520037000452"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Hotel Nisarg ( Special Misal House )",
+                                            "area": "Ravet",
+                                            "completeAddress": "Royale Shell, Bhondave Corner, Near D. Y. Opp. Pawana Bank, Ravet, Dy Patil College Rd, Ravet, Pune, Maharashtra 411033"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "33230f5d-ad73-4650-a572-1ac3d8675351",
+    "sid": "qov0b59659d-c800-4453-a6f7-265f66578",
+    "deviceId": "0f6c6758-5e1a-2316-7366-d20b12da93b5",
+    "csrfToken": "CkblcaVGvZu1-Sk3alCWseC1XpgSsQt1mQ7jFYbg"
+}
