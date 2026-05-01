@@ -5,57 +5,90 @@ const { users } = require("../models/user.model");
 const SECRET = "mysecret";
 
 // Register
-const register = async (req, res) => {
+exports.register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
-    const existingUser = users.find((u) => u.email === email);
-    if (existingUser) {
+    const userExists = await User.findOne({ email });
+
+    if (userExists) {
       return res.status(400).json({ message: "User already exists" });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser = {
-      id: Date.now().toString(),
+    const user = await User.create({
       name,
       email,
       password: hashedPassword,
-    };
+    });
 
-    users.push(newUser);
+    const token = jwt.sign(
+      { id: user._id },
+      process.env.JWT_SECRET,
+      { expiresIn: "1d" }
+    );
 
-    res.json({ message: "User registered successfully" });
+    res.status(201).json({
+      token,
+      user: {
+        _id: user._id,
+        name: user.name,
+        email: user.email,
+      },
+    });
+
   } catch (error) {
-    res.status(500).json({ message: "Error registering user" });
+    res.status(500).json({ message: error.message });
   }
 };
 
 // Login
-const login = async (req, res) => {
+exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const user = users.find((u) => u.email === email);
+    const user = await User.findOne({ email });
+
     if (!user) {
       return res.status(400).json({ message: "Invalid credentials" });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
+
     if (!isMatch) {
       return res.status(400).json({ message: "Invalid credentials" });
     }
 
     const token = jwt.sign(
-      { id: user.id, email: user.email },
-      SECRET,
+      { id: user._id },
+      process.env.JWT_SECRET,
       { expiresIn: "1d" }
     );
 
-    res.json({ token });
+    const userData = {
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+    };
+
+    res.json({
+      token,
+      user: userData,
+    });
+
   } catch (error) {
-    res.status(500).json({ message: "Error logging in" });
+    res.status(500).json({ message: error.message });
   }
 };
 
-module.exports = { register, login };
+exports.getProfile = async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id).select("-password");
+
+    res.json(user);
+
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
