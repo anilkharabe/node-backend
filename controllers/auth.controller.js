@@ -9,36 +9,40 @@ exports.register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
 
-    const userExists = await User.findOne({ email });
+    const user = users.find((u) => u.email === email);
 
-    if (userExists) {
+    if (user) {
       return res.status(400).json({ message: "User already exists" });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const user = await User.create({
+    const newUser  = {
+      id: Date.now().toString(),
       name,
       email,
       password: hashedPassword,
-    });
+    };
 
-    const token = jwt.sign(
-      { id: user._id },
-      process.env.JWT_SECRET,
-      { expiresIn: "1d" }
-    );
+    users.push(newUser);
+
+    console.log("user", newUser);
+
+    // const token = jwt.sign(
+    //   { id: user._id },
+    //   process.env.JWT_SECRET,
+    //   { expiresIn: "1d" }
+    // );
 
     res.status(201).json({
-      token,
       user: {
-        _id: user._id,
-        name: user.name,
-        email: user.email,
+        name: newUser.name,
+        email: newUser.email,
       },
     });
 
   } catch (error) {
+    console.log('error', error)
     res.status(500).json({ message: error.message });
   }
 };
@@ -48,7 +52,7 @@ exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const user = await User.findOne({ email });
+    const user = users.find((u) => u.email === email);
 
     if (!user) {
       return res.status(400).json({ message: "Invalid credentials" });
@@ -61,9 +65,8 @@ exports.login = async (req, res) => {
     }
 
     const token = jwt.sign(
-      { id: user._id },
-      process.env.JWT_SECRET,
-      { expiresIn: "1d" }
+      { id: user.id, email: user.email },
+      SECRET 
     );
 
     const userData = {
@@ -78,6 +81,7 @@ exports.login = async (req, res) => {
     });
 
   } catch (error) {
+    console.log("error", error)
     res.status(500).json({ message: error.message });
   }
 };
