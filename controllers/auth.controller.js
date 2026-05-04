@@ -7,7 +7,8 @@ const SECRET = "mysecret";
 // Register
 exports.register = async (req, res) => {
   try {
-    const { name, email, password } = req.body;
+    console.log('req.body', req.body)
+    const { name, email, password, role } = req.body;
 
     const user = users.find((u) => u.email === email);
 
@@ -22,6 +23,8 @@ exports.register = async (req, res) => {
       name,
       email,
       password: hashedPassword,
+      role,
+      status: role === "res_owner" ? "pending" : "approve"
     };
 
     users.push(newUser);
@@ -38,6 +41,7 @@ exports.register = async (req, res) => {
       user: {
         name: newUser.name,
         email: newUser.email,
+        role: newUser.role
       },
     });
 
@@ -73,6 +77,7 @@ exports.login = async (req, res) => {
       _id: user._id,
       name: user.name,
       email: user.email,
+      role: user.role
     };
 
     res.json({
