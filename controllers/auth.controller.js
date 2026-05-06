@@ -1,53 +1,54 @@
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { users } = require("../models/user.model");
+const User = require("../models/User");
 
 const SECRET = "mysecret";
+
+const generateToken = (id) => {
+  return jwt.sign({ id }, process.env.JWT_SECRET, {
+    expiresIn: "1d",
+  });
+}
 
 // Register
 exports.register = async (req, res) => {
   try {
-    console.log('req.body', req.body)
     const { name, email, password, role } = req.body;
 
-    const user = users.find((u) => u.email === email);
+    const userExists = await User.findOne({ email });
 
-    if (user) {
-      return res.status(400).json({ message: "User already exists" });
+    if (userExists) {
+      return res.status(400).json({
+        message: "User already exists",
+      });
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser  = {
-      id: Date.now().toString(),
+    const user = await User.create({
       name,
       email,
       password: hashedPassword,
       role,
-      status: role === "res_owner" ? "pending" : "approve"
-    };
-
-    users.push(newUser);
-
-    console.log("user", newUser);
-
-    // const token = jwt.sign(
-    //   { id: user._id },
-    //   process.env.JWT_SECRET,
-    //   { expiresIn: "1d" }
-    // );
+      status: role === "owner" ? "pending" : "approved",
+    });
 
     res.status(201).json({
+      // token: generateToken(user._id),
+
       user: {
-        name: newUser.name,
-        email: newUser.email,
-        role: newUser.role
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+        status: user.status,
       },
     });
 
   } catch (error) {
-    console.log('error', error)
-    res.status(500).json({ message: error.message });
+    res.status(500).json({
+      message: error.message,
+    });
   }
 };
 
@@ -56,38 +57,50 @@ exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
 
-    const user = users.find((u) => u.email === email);
+    const user = await User.findOne({ email });
 
     if (!user) {
-      return res.status(400).json({ message: "Invalid credentials" });
+      return res.status(400).json({
+        message: "Invalid credentials",
+      });
     }
 
-    const isMatch = await bcrypt.compare(password, user.password);
-
-    if (!isMatch) {
-      return res.status(400).json({ message: "Invalid credentials" });
-    }
-
-    const token = jwt.sign(
-      { id: user.id, email: user.email },
-      SECRET 
+    const isMatch = await bcrypt.compare(
+      password,
+      user.password
     );
 
-    const userData = {
-      _id: user._id,
-      name: user.name,
-      email: user.email,
-      role: user.role
-    };
+    if (!isMatch) {
+      return res.status(400).json({
+        message: "Invalid credentials",
+      });
+    }
+
+    if (
+      user.role === "owner" &&
+      user.status !== "approved"
+    ) {
+      return res.status(403).json({
+        message: "Waiting for admin approval",
+      });
+    }
 
     res.json({
-      token,
-      user: userData,
+      token: generateToken(user._id),
+
+      user: {
+        id: user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role,
+        status: user.status,
+      },
     });
 
   } catch (error) {
-    console.log("error", error)
-    res.status(500).json({ message: error.message });
+    res.status(500).json({
+      message: error.message,
+    });
   }
 };
 
