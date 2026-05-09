@@ -8,7 +8,7 @@ const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {
     expiresIn: "1d",
   });
-}
+};
 
 // Register
 exports.register = async (req, res) => {
@@ -44,7 +44,6 @@ exports.register = async (req, res) => {
         status: user.status,
       },
     });
-
   } catch (error) {
     res.status(500).json({
       message: error.message,
@@ -66,10 +65,7 @@ exports.login = async (req, res) => {
       });
     }
 
-    const isMatch = await bcrypt.compare(
-      password,
-      user.password
-    );
+    const isMatch = await bcrypt.compare(password, user.password);
 
     if (!isMatch) {
       return res.status(400).json({
@@ -77,17 +73,19 @@ exports.login = async (req, res) => {
       });
     }
 
-    if (
-      user.role === "owner" &&
-      user.status !== "approved"
-    ) {
+    if (user.role === "owner" && user.status !== "approved") {
       return res.status(403).json({
         message: "Waiting for admin approval",
       });
     }
 
+    res.cookie("token", generateToken(user._id), {
+      httpOnly: true,
+      secure: false, // true in production with HTTPS
+      maxAge: 24 * 60 * 60 * 1000, // 1 day
+    });
+
     res.json({
-      token: generateToken(user._id),
 
       user: {
         id: user._id,
@@ -97,11 +95,9 @@ exports.login = async (req, res) => {
         status: user.status,
       },
     });
-
   } catch (error) {
-    console.log("error", error)
+    console.log("error", error);
     res.status(500).json({
-
       message: error.message,
     });
   }
@@ -112,7 +108,6 @@ exports.getProfile = async (req, res) => {
     const user = await User.findById(req.user.id).select("-password");
 
     res.json(user);
-
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

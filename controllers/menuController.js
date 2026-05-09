@@ -63,6 +63,7 @@ exports.deleteMenu = async (req, res) => {
   }
 };
 
+// UPDATE MENU
 exports.updateMenu = async (req, res) => {
   try {
     const updatedMenu = await Menu.findByIdAndUpdate(
@@ -76,6 +77,7 @@ exports.updateMenu = async (req, res) => {
     res.json(updatedMenu);
 
   } catch (error) {
+    console.log("error", error)
     res.status(500).json({
       message: error.message,
     });
